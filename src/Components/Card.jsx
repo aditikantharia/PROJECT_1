@@ -17,10 +17,10 @@ const Card = (props) => {
                 </div>
                 
                 <div className="content pt-2 my-5">
-                    <h2 className="text-2xl-font-bold ">{props?.data?.name}</h2>
+                    <h2 className="text-2xl font-bold my-2 ">{props?.data?.name}</h2>
                     <p className='text-md text-gray-400 font-semibold my-1'>{props?.data?.username}</p>
 
-                    <p className='tetx-md my-2'>{props?.data?.bio}</p>
+                    <p className='text-md my-2'>{props?.data?.bio}</p>
                 </div>
 
                 <div className="other flex justify-between items-center">

@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from './Components/card'
 import { FileMusic, User } from 'lucide-react';
+import Card1 from './Components/Card1';
+import Card2 from './Card2';
 
 const App = () => {
       const data =[
@@ -104,7 +106,10 @@ const App = () => {
       return <Card data={user}/>
     })}
     </section>
+    <Card1/>
+    <Card2 />
     </>
+    
   )
 }
 
